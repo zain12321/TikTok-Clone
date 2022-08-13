@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+.dropout{
+  /* background-color: #; */
+  color: black;
+  /* padding: 16px; */
+  font-size: 14px;
+  border: none;
+}
+
+.dropdowns {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contents {
+  display: none;
+   position: absolute; 
+  /* background-color: #04AA6D; */
+  min-width: 230px;
+  min-height: 265px;
+    right: 10px;
+  /* box-shadow: 0px 8px 1px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+  border: black;
+
+  border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+.dropdown-content a:hover {background-color: rgb(141, 136, 136);} */
+.dropdown-contents a:hover {color: gray;}
+.dropdowns:hover .dropdown-contents {display: block;}
+/* .dropdown:hover .dropbtn {background-color: #FFFFFF;} */
+
+
+
+
+
+
+
+
+
+
+.video{
+  margin-top: 10px;
+  margin-left: 70px;
+  padding-bottom: 320px;
+  position: absolute;
+  border-radius: 0px;
+}
+.footer{
+  position: relative;
+  color: white;
+   top: 0;
+  font-weight: bolder;
+  
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 100px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: red;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .video {
+    border: 1px solid white;
+    background-color: white;
+    /* snap begins */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    scroll-snap-align: start;
+    /* snap ends */
+}
+.video__player {
+    width: 100%;
+    height: 10%;
+    object-fit: fill;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 90px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}
