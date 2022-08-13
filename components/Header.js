@@ -46,8 +46,8 @@ function Header() {
         </div>
       <div className='dropdowns'>
       <div className='dropout'>
-            <img  className='h-9  w-9 rounded-full
-            ' src="https://pbs.twimg.com/profile_images/1510876499884314627/fGkzkHNn_400x400.png"
+            <img  className='h-10  w-10 rounded-full
+            ' src="https://pps.whatsapp.net/v/t61.24694-24/294997810_1176312363283121_1787894006439940867_n.jpg?ccb=11-4&oh=01_AVzrHJGwehv1iB6UurjBCwDgarZTYT9BrutTayZdpa3ijQ&oe=630769C3"
             alt=""
             />
         </div>
